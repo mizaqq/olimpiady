@@ -1,6 +1,9 @@
 ﻿#include <vector>
 #include <iostream>
-
+/*
+wczytujemy plakaty a następnie dodajemy po jedny minimalnym plakacie za każdym razem gdy nowy wczytany budynek jest mniejszy do momentu az znajdziemy większy bądź równy budynek.
+jeżeli jest większy lub stos jest pusty do dodajemy budynek na koniec stosu
+*/
 using namespace std;
 
 int main() {
